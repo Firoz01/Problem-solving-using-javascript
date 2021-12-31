@@ -15,13 +15,13 @@ function vaxTrail(persons) {
       if (person.age <= 30 && person.age >= 20 && person.temperature < 100) {
         arrayA.push(person);
       }
-      else if (person.age <= 40 && person.age >= 31 && person.temperature < 100) {
+      if (person.age <= 40 && person.age >= 31 && person.temperature < 100) {
         arrayB.push(person);
       }
-      else if (person.age <= 50 && person.age >= 41 && person.temperature < 100) {
+      if (person.age <= 50 && person.age >= 41 && person.temperature < 100) {
         arrayC.push(person);
       }
-      else {
+      if (person.temperature >= 100) {
         arrayD.push(person);
       }
   }
@@ -69,8 +69,8 @@ let persons = [
   { name: "Rahul", age: 39, temperature: 99 },
   { name: "Paul", age: 45, temperature: 98 },
   { name: "Kat", age: 44, temperature: 98 },
-  { name: "Nayem", age: 55, temperature: 100 },
-  { name: "Suvrow", age: 58, temperature: 100 },
+  { name: "Nayem", age: 55, temperature: 99 },
+  { name: "Suvrow", age: 38, temperature: 100 },
   { name: "Sabnaj", age: 57, temperature: 101 },
 ];
 
