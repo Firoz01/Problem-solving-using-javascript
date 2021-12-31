@@ -66,10 +66,10 @@ let persons = [
   { name: "sunil", age: 24, temperature: 98 },
   { name: "Biplap", age: 23, temperature: 98 },
   { name: "Kabir", age: 35, temperature: 99 },
-  { name: "Rahul", age: 39, temperature: 99 },
+  { name: "Rahul", age: 34, temperature: 99 },
   { name: "Paul", age: 45, temperature: 98 },
   { name: "Kat", age: 44, temperature: 98 },
-  { name: "Nayem", age: 55, temperature: 99 },
+  { name: "Nayem", age: 55, temperature: 100 },
   { name: "Suvrow", age: 38, temperature: 100 },
   { name: "Sabnaj", age: 57, temperature: 101 },
 ];
